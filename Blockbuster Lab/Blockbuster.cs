@@ -44,15 +44,15 @@ namespace Blockbuster_Lab
             };
 
 
-            VHS StickIt = new VHS();
-            StickIt.Title = "Stick It";
-            StickIt.Category = Genre.Drama;
-            StickIt.RunTime = 103;
-            StickIt.Scenes = new List<string>
+            VHS TheMightyDucks = new VHS();
+            TheMightyDucks.Title = "The Mighty Ducks";
+            TheMightyDucks.Category = Genre.Comedy;
+            TheMightyDucks.RunTime = 94;
+            TheMightyDucks.Scenes = new List<string>
             {
-                {"she chokes at worlds" },
-                {"biking with friends" },
-                {"joins VGA" },
+                {"They Lose The Game" },
+                {"The Train Hard"},
+                {"KnuckelPuck" },
             };
 
 
@@ -81,7 +81,7 @@ namespace Blockbuster_Lab
             Movies.Add(TheOtherGuys);
             Movies.Add(Moneyball);
             Movies.Add(HarryPotterandthePrisonerofAzkaban);
-            Movies.Add(StickIt);
+            Movies.Add(TheMightyDucks);
             Movies.Add(RememberTheTitans);
             Movies.Add(FridayThe13th);
 
